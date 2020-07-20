@@ -1,0 +1,244 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: Lato !important;
+    font-weight: 400;
+}
+
+/* NavBar */
+
+nav{
+    background: #2d3e50;
+    position: fixed !important;
+    width: 100%;
+    z-index: 111;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #fff !important;
+}
+
+.nav-link{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff !important;
+    margin-right: 25px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #1bbc9b !important;
+}
+
+/* header */
+
+header{
+    background: #1bbc9b;
+    padding: 200px 0 100px;
+}
+
+header h1{
+    font-family: Montserrat;
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.feedback .line-star .line,
+.about .line-star .line,
+.courses .line-star .line,
+header .line-star .line{
+    width: 100px;
+    height: 4px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.feedback .line-star i,
+.about .line-star i,
+.courses .line-star i,
+header .line-star i{
+    font-size: 35px !important;
+    color: #fff;
+}
+
+header p{
+    font-size: 25px;
+    color: #fff;
+    overflow: 0;
+    margin-top: 25px;
+}
+
+header img{
+    max-width: 315px;
+    max-height: 315px;
+}
+
+/* Section Courses */
+
+.courses{
+    padding: 100px 0;
+}
+
+h2{
+    color: #2d3e50;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.feedback .line-star .line,
+.courses .line-star .line{
+    background: #2d3e50;
+    
+}
+
+.feedback .line-star i,
+.courses .line-star i{
+    color: #2d3e50;
+}
+
+.courses .col-xl-4 img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+    position: relative;
+}
+
+
+/* Section About */
+
+.about{
+    background: #1bbc9b;
+    padding: 100px 0;
+}
+
+.about h2{
+    color: #fff;
+}
+
+.about p{
+    font-size: 20px;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: lighter;
+    margin: 30px 0 0 30px;
+}
+
+.about p span{
+    font-weight: 600;
+}
+
+/* Section Feedback */
+
+.feedback{
+    padding: 100px 0;
+}
+
+.feedback .btn a{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Montserrat;
+    color: #fff !important;
+    padding: 20px;
+    background: #1bbc9b;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+/* Footer */
+
+footer{
+    background: #2d3e50;
+    padding: 80px 0;
+}
+
+footer h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Montserrat;
+    margin-bottom: 30px;
+}
+
+footer p{
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+footer .phone-number{
+    display: inline-block;
+    font-size: 18px;
+    color: #1bbc9b;
+}
+footer .phone-number:hover{
+    opacity: 0.6;
+}
+
+footer .fa{
+    font-size: 20px !important;
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+footer .social{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .social:hover i{
+    color: #2d3e50;
+    background: #fff;
+}
+
+footer iframe{
+    width: 100%;
+    height: 200px;
+}
+
+
+.copyright{
+    background: #1a242e;
+}
+
+.copyright p{
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Thanks for your watching :) */
+
+.courses .plus{
+    background: #1bbc9b;
+    width: 90.5%;
+    height: 90%;
+    position: absolute;
+    top: 15%;
+    border-radius: 10px;
+    z-index: 1;
+}
